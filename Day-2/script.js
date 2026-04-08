@@ -11,7 +11,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
         <h3>${user.name}</h3>
         <p>${user.email}</p>
         <p>${user.address.street}, ${user.address.city}</p>
-        <p>Im a working professional seeking a job in the field of web development.</p>
+        <p>I'm a working professional seeking a job in the field of web development.</p>
         <button>View Profile</button>
       `;
 
