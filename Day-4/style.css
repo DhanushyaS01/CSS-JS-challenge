@@ -54,4 +54,9 @@ body {
   .emoji {
     width: 90px;
     margin-bottom: 15px;
+    animation: float 1.5s infinite ease-in-out;
+  }
+  @keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
   }
