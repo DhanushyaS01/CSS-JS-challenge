@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #064e3b;
+    text-align: center;
+    margin: 0;
+  }
+  #search{
+    cursor: pointer;
+    color: #60a5fa;
+}
+
+  .card {
+    background: #1e3a8a;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color:white;
+    box-shadow: 2px 4px 50px rgb(0, 0, 0);
+  }
+  
+  input {
+    padding: 8px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #result {
+    margin-top: 15px;
+  }
