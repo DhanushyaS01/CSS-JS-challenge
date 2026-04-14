@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 & Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="task-section">
+            <h1>Pseudo-classes & Pseudo Elements</h1>
+            <ul>
+                <li>Currency Converter</li>
+                <li>Dynamic Interactions</li>
+                <li>Responsive Layouts</li>
+                <li>Web Design</li>
+            </ul>
+        </section>
+
+        <section class="task-section">
+            <h1>Currency Converter</h1>
+            <div class="converter">
+                <input type="number" id="amount" value="1">
+                <select id="fromCurrency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="INR" selected>INR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+                <span>to</span>
+                <select id="toCurrency">
+                    <option value="USD" selected>USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="INR">INR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+                <div class="result" id="resultText">Result: 0.00</div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
