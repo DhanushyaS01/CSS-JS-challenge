@@ -1,0 +1,53 @@
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+  }
+  
+
+  .ball {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-bottom: 3px solid white;
+  }
+  
+  .bounce{
+    width: 40px;
+    height: 40px;
+    background: #22c55e;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 0.8s infinite ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 150px;
+    }
+    100% {
+      top: 0;
+    }
+  }
